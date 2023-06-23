@@ -1,0 +1,45 @@
+<div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+                <div class="p-2 border border-primary">
+                    <h4>About Us</h4>
+                    <p> 
+                        We provide clinical exposure in the various hospital of Siliguri and train students to face the changing health care system.</p>
+                    <button class="btn btn-danger rounded-0">Read More..</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-2 border border-danger">
+                    <h4>Courses</h4>
+                        <div class="row">
+                            <p>We Provide under graduate and diploma certificate which enables students adequate knowledge that is required in
+                                health care system.
+                            </p>
+                        </div>
+                        <button class="btn btn-danger rounded-0">Read More..</button>
+                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-2 border border-warning">
+                    <h4>Registration</h4>
+                    <p>We are associated with various nursing school of Bangalore with KNC and INC registration.</p>
+                    <button class="btn btn-danger rounded-0">Read More..</button>
+                </div>
+            </div>                        
+          </div>
+        <!-- <h3>Courses</h3>
+        <div class="row">
+            <div class="col" style="background-color: #502260;">
+                <div class="p-4 text-center">
+                    <h5 class="text-white">BSC Nursing</h5>
+                    <p class="text-white">B.Sc. (Bachelor of Science in Nursing) is one of the best program offered at the university level.</p>
+                </div>
+            </div>
+            <div class="col" style="background-color: #e4dabc;">
+                <div class="p-4 text-center">
+                    <h5>GNM</h5>
+                    <p>GNM (General Nursing and Midwifery) one of the course programs in a Diploma course when the candidate once trained wholistically to render her care in hospital setup as well as in the community setup.</p>
+                </div>
+            </div>
+        </div> -->
+      </div>

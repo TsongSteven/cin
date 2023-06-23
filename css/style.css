@@ -1,0 +1,59 @@
+.image-wrapper{
+    position: relative;
+}
+.text-horizontal-center{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+.facility_card{
+    transition: 0.5s;
+}
+.facility_card .card-body i:hover{
+    color: #005AFF !important;
+}
+.facility_card i{
+    color: #FF5733;
+    transition: 0.5s;
+}
+.fac_wrapper{
+    position: relative;
+}
+.fac_wrapper img{
+    border: 2px solid #FF5733;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    padding-top: 86%;
+}
+.overlay:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    padding-top: 20px;
+    /* border:1px solid #FF5733; */
+}
+.overlay p{
+    margin-left: 30px;
+    display: none;
+}
+.fac_text{
+    z-index: 1;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white !important;
+    font-size: 16px;
+    padding: 16px 32px;
+}
