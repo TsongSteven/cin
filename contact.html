@@ -65,7 +65,7 @@
           <div class="col-md-6">
             <h3 class="font-weight-bold">CONTACT CHRIST INSTITUTE OF NURSING</h3>
 
-              <p>Phone : +91 8250620976</p>
+              <p>Phone : +91 8250620976/ 8016736004</p>
               <p>EMail : christsinstituteofnursing@gmail.com</p>
               <p>Address : Masjid Rd, Iskcon Mandir, Ashraf Nagar, Haidar Para, Siliguri, 734004</p>
               <h4 >SOCIAL LINKS</h4>
@@ -91,7 +91,7 @@
             </div>
             <div class="col-md-4">
               <h3 class="text-white">QUICK CONTACT</h3>
-              <p class="text-white">Phone : +91 8250620976/8016736004</p>
+              <p class="text-white">Phone : +91 8250620976/ 8016736004</p>
               <p class="text-white">EMail : christsinstituteofnursing@gmail.com</p>
               <p class="text-white">Address :Masjid Rd, Iskcon Mandir, Ashraf Nagar, Haidar Para, Siliguri, 734004</p>
               <h3 class="text-white">SOCIAL LINKS</h3>
@@ -112,5 +112,17 @@
       $('#fac_p').removeClass('d-print-none');
     })
   </script>
+  <script>
+    $(document).ready(function() {
+
+var url = [location.protocol, '//', location.host, location.pathname].join('');  
+
+         $('.nav-item.active').removeClass('active');
+         $('.nav-item a[href="' + url  + '"]').parent().addClass('active');
+         $(this).parent().addClass('active').siblings().removeClass('active');
+
+
+ });
+</script>
   </body>
 </html>

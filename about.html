@@ -116,5 +116,17 @@
       $('#fac_p').removeClass('d-print-none');
     })
   </script>
+  <script>
+    $(document).ready(function() {
+
+var url = [location.protocol, '//', location.host, location.pathname].join('');  
+
+         $('.nav-item.active').removeClass('active');
+         $('.nav-item a[href="' + url  + '"]').parent().addClass('active');
+         $(this).parent().addClass('active').siblings().removeClass('active');
+
+
+ });
+</script>
   </body>
 </html>
